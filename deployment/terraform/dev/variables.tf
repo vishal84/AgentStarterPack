@@ -15,7 +15,7 @@
 variable "project_name" {
   type        = string
   description = "Project name used as a base for resource naming"
-  default     = "gsi-agentspace"
+  default     = "gsi-agentspace-dev"
 }
 
 variable "dev_project_id" {
@@ -45,7 +45,7 @@ variable "feedback_logs_filter" {
 variable "agentengine_sa_roles" {
   description = "List of roles to assign to the Agent Engine app service account"
 
-  type        = list(string)
+  type = list(string)
   default = [
     "roles/aiplatform.user",
     "roles/discoveryengine.editor",

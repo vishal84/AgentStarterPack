@@ -1,5 +1,5 @@
 # Project name used for resource naming
-project_name = "gsi-agentspace"
+project_name = "gsi-agentspace-dev"
 
 # Your Dev Google Cloud project id
 dev_project_id = "gsi-agentspace-dev"
