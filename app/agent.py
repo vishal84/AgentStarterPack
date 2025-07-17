@@ -36,7 +36,7 @@ def get_weather(query: str) -> str:
     """
     if "sf" in query.lower() or "san francisco" in query.lower():
         return "It's 60 degrees and foggy."
-    return "It's 90 degrees and sunny."
+    return "It's 110 degrees and hot."
 
 
 def get_current_time(query: str) -> str:
